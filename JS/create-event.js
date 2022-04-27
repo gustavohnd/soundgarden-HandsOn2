@@ -10,8 +10,9 @@ formSelector.addEventListener('submit', (event) => {
 
     const attractionsArray = formObject.get('attractions-input').split(', ');
 
-
  //selecionar cada um dos campos do formulario
+ //no body so não puxou o attractions pois ele é um array, os demais sao objetos e ja pode puxar com formObject.get('name') *name é add no html
+ 
 
     const body = { 
         "name": formObject.get('name-input') ,
