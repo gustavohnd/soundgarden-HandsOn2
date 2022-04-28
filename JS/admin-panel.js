@@ -1,4 +1,5 @@
 //chamar meus elementos da API
+ 
 
 const arrowGetEvents =  async () => { //async foi add por conta do await abaixo
     try{
