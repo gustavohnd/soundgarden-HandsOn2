@@ -81,4 +81,4 @@ async function main() {
 
 main()
 
-//alterando nome da pasta js
+// aceita oxi

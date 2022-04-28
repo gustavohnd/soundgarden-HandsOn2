@@ -63,4 +63,4 @@ fetch("https://xp41-soundgarden-api.herokuapp.com/events/" + queryParameter.get(
         console.error(err);
     });
 
-//alterando nome da pasta js
+//alterando 
