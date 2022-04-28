@@ -87,3 +87,6 @@ function placeInputOnObject() {
     }
 
 main();
+
+
+//alterando nome da pasta js

@@ -38,3 +38,6 @@ formSelector.addEventListener('submit', (event) => {
     ).catch((error)=>console.error(error));
 
 })
+
+
+//alterando nome da pasta js
