@@ -229,5 +229,3 @@ const showModal = async (dataRequisition) => {
 // }
 
 // main()
-
-// // aceita oxi
