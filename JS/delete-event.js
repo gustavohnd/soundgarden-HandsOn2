@@ -1,6 +1,4 @@
 
-//consolidando os dados em constantes
-
 const formSelector = document.querySelector('#form');
 const nameSelector = document.querySelector('#name-input');
 const bannerSelector = document.querySelector('#banner-input');
@@ -21,15 +19,9 @@ function placeInputValuesFromEvents(data) {
     capacitySelector.value = data.number_tickets;
 }
 
-// console.log(placeInputValuesFromEvents)
-
 formSelector.addEventListener('submit', event => {
 
     event.preventDefault();
-
-
-//deletando o evento na API 
-
 
     fetch("https://xp41-soundgarden-api.herokuapp.com/events/" + queryParameter.get('id'), {
         "method": "DELETE",
@@ -47,7 +39,7 @@ formSelector.addEventListener('submit', event => {
         });
 })
 
-//buscando data na API 
+
 fetch("https://xp41-soundgarden-api.herokuapp.com/events/" + queryParameter.get('id'), {
     "method": "GET",
     "headers": {}
@@ -63,4 +55,3 @@ fetch("https://xp41-soundgarden-api.herokuapp.com/events/" + queryParameter.get(
         console.error(err);
     });
 
-//alterando 
